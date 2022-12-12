@@ -1,0 +1,24 @@
+{
+  "name": "cripped-bounty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "export": "ts-node index.ts > sheet.csv",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@metaplex-foundation/mpl-token-metadata": "^2.1.2",
+    "@solana/web3.js": "^1.26.0",
+    "bn.js": "^5.2.0",
+    "borsh": "^0.6.0",
+    "bs58": "^4.0.1",
+    "isomorphic-fetch": "^3.0.0",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3"
+  }
+}
